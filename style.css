@@ -1,0 +1,100 @@
+body {
+    background-color: silver;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#photo {
+    border-radius: 10px;
+    width: 250px;
+}
+
+#email {
+    width: 20px;
+    height: 20px;
+}
+
+#linkedin {
+    width: 20px;
+    height: 20px;
+}
+
+#github {
+    width: 20px;
+    height: 20px;
+}
+
+#container {
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: 300px auto;
+    grid-template-rows: auto auto auto auto;
+    background-color: lightcyan;
+    border: 1px;
+}
+
+.perso {
+    grid-column: 1;
+    grid-row: 1 / 5;
+    border: 2px solid black;
+    text-align: center;
+    margin: 1px;
+}
+
+.experience {
+    grid-column: 2;
+    grid-row: 1;
+    border: 2px solid black;
+    padding-left: 15px;
+    margin: 1px;
+}
+
+.certifications {
+    grid-column: 2;
+    grid-row: 2;
+    border: 2px solid black;
+    padding-left: 15px;
+    margin: 1px;
+}
+
+.skills {
+    grid-column: 2;
+    grid-row: 3;
+    border: 2px solid black;
+    padding-left: 15px;
+    margin: 1px;
+}
+
+.languages {
+    grid-column: 2;
+    grid-row: 4;
+    border: 2px solid black;
+    padding-left: 15px;
+    margin: 1px;
+}
+
+.ul-perso {
+    list-style: none;
+    text-align: left;
+}
+.ul-experience {
+    list-style: none;
+}
+
+.ul-certifications {
+    list-style: none;
+}
+.ul-languages {
+    list-style: none;
+}
+
+.disc {
+    list-style-type: disc;
+}
+
+.inline li {
+    display: inline;
+}
+
+span {
+    
+}
