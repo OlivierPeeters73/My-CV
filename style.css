@@ -5,7 +5,7 @@ body {
 
 #photo {
     border-radius: 10px;
-    width: 250px;
+    width: 175px;
 }
 
 #email {
@@ -25,17 +25,17 @@ body {
 
 #container {
     display: grid;
-    border: 2px solid black;
     grid-template-columns: 300px auto;
     grid-template-rows: auto auto auto auto;
-    background-color: lightcyan;
     border: 1px;
 }
 
 .perso {
     grid-column: 1;
     grid-row: 1 / 5;
+    background-color: lightcyan;
     border: 2px solid black;
+    border-radius: 10px;
     text-align: center;
     margin: 1px;
 }
@@ -43,7 +43,9 @@ body {
 .experience {
     grid-column: 2;
     grid-row: 1;
+    background-color: lightcyan;
     border: 2px solid black;
+    border-radius: 10px;
     padding-left: 15px;
     margin: 1px;
 }
@@ -51,7 +53,9 @@ body {
 .certifications {
     grid-column: 2;
     grid-row: 2;
+    background-color: lightcyan;
     border: 2px solid black;
+    border-radius: 10px;
     padding-left: 15px;
     margin: 1px;
 }
@@ -59,7 +63,9 @@ body {
 .skills {
     grid-column: 2;
     grid-row: 3;
+    background-color: lightcyan;
     border: 2px solid black;
+    border-radius: 10px;
     padding-left: 15px;
     margin: 1px;
 }
@@ -67,7 +73,10 @@ body {
 .languages {
     grid-column: 2;
     grid-row: 4;
+    padding-bottom: 15px;
+    background-color: lightcyan;
     border: 2px solid black;
+    border-radius: 10px;
     padding-left: 15px;
     margin: 1px;
 }
@@ -95,6 +104,43 @@ body {
     display: inline;
 }
 
-span {
-    
+table {
+    padding-left: 15px;
+}
+
+.progress-bar { 
+    width: 300px;
+    height: 18px;
+    padding: 3px;
+    background-color: #191919;
+    border-radius: 16px;
+    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+}
+
+.progress-bar:before { 
+    content: '';
+    display: block;
+    position: absolute;
+    background: #999;
+    border-radius: 12px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+}
+
+.progress-bar.french:before {
+    width: 300px;
+    height: 18px;
+}
+
+.progress-bar.english:before {
+    width: 150px;
+    height: 18px;
+}
+
+.progress-bar.dutch:before {
+    width: 100px;
+    height: 18px;
+}
+
+td, div {
+    padding-left: 15px;
 }
